@@ -24,7 +24,7 @@ Repository Settings
 
 * ArtifactId = spout-archetype
 * Repository = http://repository-tenowg.forge.cloudbees.com/release/
-* Version = 1.1
+* Version = 1.2
 * GroupID = com.thedemgel
 
 Using this Archetype from the Command Line
@@ -33,7 +33,7 @@ You will need a copy of Maven 2 or 3 installed on your system. You can check if 
 
 	mvn archetype:generate -DarchetypeArtifactId=spout-archetype                                        \
 	                       -DarchetypeGroupId=com.thedemgel                                             \
-	                       -DarchetypeVersion=1.1                                                       \
+	                       -DarchetypeVersion=1.2                                                       \
 	                       -DarchetypeRepository=http://repository-tenowg.forge.cloudbees.com/release/
 
 After Maven downloads the archetype once, you can omit the `-DarchetypeRepository` flag to use the one on your local system. The archetype will also accept the following flags:
@@ -73,3 +73,7 @@ Assuming you have Maven installed on your system, navigate to the directory you 
 	mvn clean install archetype:update-local-catalog
 
 The archetype is now installed on your local system, and can be accessed in any of the methods outlined above. In particular, you can be sure to use the version in your local system by running `mvn archetype:generate` with the `-DarchetypeCatalog=local` flag.
+
+License
+-------
+This project is licensed under `The Mit License (MIT)`.

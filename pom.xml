@@ -14,6 +14,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
+	<licenses>
+		<license>
+			<name>The MIT License</name>
+			<url>
+				http://opensource.org/licenses/MIT
+			</url>
+			<comments>s. license.txt</comments>
+		</license>
+	</licenses>
 
 	<build> 
 		<extensions> 
