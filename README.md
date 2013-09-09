@@ -54,7 +54,8 @@ Note that if you do not specify these flags, Maven will prompt you for them. A m
 	                       -DgroupId=me.testmaker                                                       \
 	                       -Dversion=1.0.0                                                              \
 	                       -DpluginName=Test                                                            \
-	                       -Dpackage=me.testmaker.plugins.test
+	                       -Dpackage=me.testmaker.plugins.test                                          \
+			       -Dmavensite=true
 
 Eclipse Tutorial
 ----------------
